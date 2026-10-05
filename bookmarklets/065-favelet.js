@@ -1,0 +1,1 @@
+(function(){jselem=document.createElement('SCRIPT');jselem.type='text/javascript';jselem.src='http://slayeroffice.com/tools/suite/suite.js';document.getElementsByTagName('body')[0].appendChild(jselem);})();

@@ -1,0 +1,1 @@
+W7=open('','A','width=480,height=340,resizable');W7.focus();with(W7.document){write('<center><form><textarea name=X rows=15 cols=54 wrap>javascript:</textarea><p><input type=button value=Run onclick=opener.location=X.value>');void(close())}

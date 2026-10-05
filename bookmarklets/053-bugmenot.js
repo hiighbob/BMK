@@ -1,0 +1,1 @@
+(function(){w=open(('http://www.bugmenot.com/view/'+encodeURIComponent(location.host)),'w','location=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=500,height=400,modal=yes,dependent=yes');if(w){setTimeout('w.focus()',1000)}else{location='http://www.bugmenot.com/view/'+encodeURIComponent(location.host)}})();

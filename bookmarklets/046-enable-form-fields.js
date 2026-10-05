@@ -1,0 +1,1 @@
+(function(){function process(tag){var i,l,els=document.getElementsByTagName(tag);for(i=0,l=els.length;i<l;i++){els[i].readOnly = null;els[i].disabled = null;}}process('input');process('select');process('textarea');process('button');})()

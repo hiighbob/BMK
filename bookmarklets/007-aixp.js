@@ -1,0 +1,1 @@
+(function(){var t=document.title.replace(/[^a-z0-9]/gi,'_');var b=new Blob([document.body.innerText],{type:'text/plain'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=t+'_'+Date.now()+'.txt';document.body.appendChild(a);a.click();document.body.removeChild(a);alert('✅ Exporté ! Vérifie tes Downloads');})()

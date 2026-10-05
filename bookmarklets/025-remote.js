@@ -1,0 +1,1 @@
+(function(){ window.name = 'receiver'; var remoteWin=window.open('','','resizable=yes,width=223,height=337,left=508,top=122'); remoteWin.document.write('<html><body>'); remoteWin.document.write('<script src="http://www.squarefree.com/bookmarklets/remotePageLinks.js"><'+'/script>'); })();

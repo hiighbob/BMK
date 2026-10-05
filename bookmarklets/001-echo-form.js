@@ -1,0 +1,1 @@
+void(d=document);void(df='http://sam-i-am.com/cgi-bin/echoform.cgi');void(c=(d.all)?d.all.tags('form'):d.getElementsByTagName('form'));with(c){for(i=0;i<length;i++) item(i).setAttribute('action',df);}

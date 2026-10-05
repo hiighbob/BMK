@@ -1,0 +1,1 @@
+(function(){var s=document.createElement('script');s.src='https://raw.githubusercontent.com/hiighbob/bookmarklets/main/bm-eruda-plugin.js?t='+Date.now();s.onerror=function(){alert('Chargement échoué');};document.head.appendChild(s);})();

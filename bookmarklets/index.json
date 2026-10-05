@@ -1,0 +1,402 @@
+[
+  {
+    "file": "001-echo-form.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Echo Form"
+  },
+  {
+    "file": "002-autobus.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "autobus"
+  },
+  {
+    "file": "003-archives-version.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "archives version"
+  },
+  {
+    "file": "004-g-force-super-bookmarklet.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "G-FORCE Super Bookmarklet"
+  },
+  {
+    "file": "005-bmulti2.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!bmulti2"
+  },
+  {
+    "file": "006-aiextract.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!AiExtract"
+  },
+  {
+    "file": "007-aixp.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!aixp"
+  },
+  {
+    "file": "008-aixp3.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!aixp3"
+  },
+  {
+    "file": "009-bm1.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "bm1"
+  },
+  {
+    "file": "010-zzz.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "ZZZ"
+  },
+  {
+    "file": "011-zap-style-sheets.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "zap style sheets"
+  },
+  {
+    "file": "012-xray-for-web-developers.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "XRAY :: for web developers"
+  },
+  {
+    "file": "013-view-source.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "view-source"
+  },
+  {
+    "file": "014-view-variables.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "view variables"
+  },
+  {
+    "file": "015-view-cache.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "View Cache"
+  },
+  {
+    "file": "016-vidpwn.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Vidpwn"
+  },
+  {
+    "file": "017-txt.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Txt"
+  },
+  {
+    "file": "018-trans.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "TRANS"
+  },
+  {
+    "file": "019-trans.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Trans"
+  },
+  {
+    "file": "020-sst.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Sst"
+  },
+  {
+    "file": "021-show-hidden.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Show Hidden"
+  },
+  {
+    "file": "022-show-comments.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Show Comments"
+  },
+  {
+    "file": "023-server.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Server"
+  },
+  {
+    "file": "024-remove-redirects.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "remove redirects"
+  },
+  {
+    "file": "025-remote.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Remote"
+  },
+  {
+    "file": "026-qr.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "QR"
+  },
+  {
+    "file": "027-pdf-download.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "PDF Download"
+  },
+  {
+    "file": "028-netcraft.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "netcraft"
+  },
+  {
+    "file": "029-mobile-perf.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Mobile Perf"
+  },
+  {
+    "file": "030-master-bookmarklet.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Master bookmarklet"
+  },
+  {
+    "file": "031-llist.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Llist"
+  },
+  {
+    "file": "032-list-alts.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "list alts"
+  },
+  {
+    "file": "033-linksearch.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "LinkSearch"
+  },
+  {
+    "file": "034-linkpage.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "LinkPage"
+  },
+  {
+    "file": "035-limg.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Limg"
+  },
+  {
+    "file": "036-http-headers.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "http headers"
+  },
+  {
+    "file": "037-hide-images-objects.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Hide Images/Objects"
+  },
+  {
+    "file": "038-gs.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "GS"
+  },
+  {
+    "file": "039-gmail-this.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Gmail this"
+  },
+  {
+    "file": "040-gm.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "GM"
+  },
+  {
+    "file": "041-frmget.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "frmget"
+  },
+  {
+    "file": "042-firebug.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Firebug"
+  },
+  {
+    "file": "043-eruda-2.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Eruda 2"
+  },
+  {
+    "file": "044-eruda.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Eruda"
+  },
+  {
+    "file": "045-enable-source-js.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Enable source js"
+  },
+  {
+    "file": "046-enable-form-fields.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Enable Form Fields"
+  },
+  {
+    "file": "047-edit-page.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "edit page"
+  },
+  {
+    "file": "048-download-video.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Download Video"
+  },
+  {
+    "file": "049-disable-css.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Disable CSS"
+  },
+  {
+    "file": "050-devtool.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Devtool"
+  },
+  {
+    "file": "051-claude-bookmarklet.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Claude bookmarklet"
+  },
+  {
+    "file": "052-castvid.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "castvid"
+  },
+  {
+    "file": "053-bugmenot.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Bugmenot"
+  },
+  {
+    "file": "054-bookmarklet-edithor.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Bookmarklet edithor"
+  },
+  {
+    "file": "055-bmk.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Bmk"
+  },
+  {
+    "file": "056-bmenu.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Bmenu"
+  },
+  {
+    "file": "057-bmedithor.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Bmedithor"
+  },
+  {
+    "file": "058-bm-remote.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "BM Remote"
+  },
+  {
+    "file": "059-allfield.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Allfield"
+  },
+  {
+    "file": "060-ai-eruda-2.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "AI eruda 2"
+  },
+  {
+    "file": "061-ai-eruda.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "Ai Eruda"
+  },
+  {
+    "file": "062-add-bookmark.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "ADD Bookmark"
+  },
+  {
+    "file": "063-100-results.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "100 Results"
+  },
+  {
+    "file": "064-stt.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!stt"
+  },
+  {
+    "file": "065-favelet.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!favelet"
+  },
+  {
+    "file": "066-extractgemini.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!ExtractGemini"
+  },
+  {
+    "file": "067-css.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!css"
+  },
+  {
+    "file": "068-all.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!all"
+  },
+  {
+    "file": "069-bmgemini.js",
+    "folder": "IMP/IMP/Bookmarklet/Marklet",
+    "name": "!bmgemini"
+  },
+  {
+    "file": "070-bmzip2.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bmzip2"
+  },
+  {
+    "file": "071-bmpdf.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bmpdf"
+  },
+  {
+    "file": "072-bmgemini.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bmgemini"
+  },
+  {
+    "file": "073-bwin.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bwin"
+  },
+  {
+    "file": "074-bmenu.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bmenu"
+  },
+  {
+    "file": "075-bmai.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!bmai"
+  },
+  {
+    "file": "076-gf.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "Gf"
+  },
+  {
+    "file": "077-smb.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "smb"
+  },
+  {
+    "file": "078-gzip.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!gzip"
+  },
+  {
+    "file": "079-vanillazipfix.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "Vanillazipfix"
+  },
+  {
+    "file": "080-bmpdf.js",
+    "folder": "IMP/IMP/Bookmarklet/BMK",
+    "name": "!Bmpdf"
+  }
+]
