@@ -1,0 +1,64 @@
+name: Extract bookmarklets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - Bookmarks
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Extract bookmarklets
+        run: |
+          node - <<'EOF'
+          const fs = require('fs');
+          const path = require('path');
+          const j = JSON.parse(fs.readFileSync('Bookmarks', 'utf8'));
+          const out = [];
+          function walk(node, folder) {
+            for (const c of node.children || []) {
+              if (c.type === 'url' && /^javascript:/i.test(c.url || '')) {
+                out.push({ folder: folder, name: c.name, code: c.url });
+              } else if (c.children) {
+                walk(c, folder ? folder + '/' + c.name : c.name);
+              }
+            }
+          }
+          for (const root of Object.values(j.roots)) walk(root, '');
+
+          fs.mkdirSync('bookmarklets', { recursive: true });
+          const index = [];
+          out.forEach((b, i) => {
+            let code = b.code.replace(/^javascript:/i, '');
+            try { code = decodeURIComponent(code); } catch (e) {}
+            let slug = (b.name || 'bookmarklet')
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-+|-+$/g, '')
+              .slice(0, 60) || 'bookmarklet';
+            const file = String(i + 1).padStart(3, '0') + '-' + slug + '.js';
+            fs.writeFileSync(path.join('bookmarklets', file), code + '\n');
+            index.push({ file: file, folder: b.folder, name: b.name });
+          });
+          fs.writeFileSync('bookmarklets/index.json', JSON.stringify(index, null, 2));
+          console.log('Extracted ' + out.length + ' bookmarklets');
+          EOF
+
+      - name: Commit extracted bookmarklets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bookmarklets
+          git commit -m "Extract bookmarklets from Bookmarks into individual files" || echo "Nothing to commit"
+          git push
